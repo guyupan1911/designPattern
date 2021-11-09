@@ -13,16 +13,31 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\Factory">
+      <UniqueIdentifier>{020bc8dd-ec8d-45e6-b454-62190e72457b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Strategy">
+      <UniqueIdentifier>{c065948c-f738-43e5-8429-6675f30bd23a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\simpleFactory.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="include\Strategy\Strategy.h">
+      <Filter>头文件\Strategy</Filter>
     </ClInclude>
-    <ClInclude Include="include\factoryMethod.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="include\Factory\abstractFactory.h">
+      <Filter>头文件\Factory</Filter>
     </ClInclude>
-    <ClInclude Include="include\singleCore.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="include\Factory\factoryMethod.h">
+      <Filter>头文件\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Factory\multiCore.h">
+      <Filter>头文件\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Factory\simpleFactory.h">
+      <Filter>头文件\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Factory\singleCore.h">
+      <Filter>头文件\Factory</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

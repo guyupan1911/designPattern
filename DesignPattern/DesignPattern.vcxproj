@@ -44,7 +44,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -65,9 +65,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="include\factoryMethod.h" />
-    <ClInclude Include="include\simpleFactory.h" />
-    <ClInclude Include="include\singleCore.h" />
+    <ClInclude Include="include\Factory\abstractFactory.h" />
+    <ClInclude Include="include\Factory\factoryMethod.h" />
+    <ClInclude Include="include\Factory\multiCore.h" />
+    <ClInclude Include="include\Factory\simpleFactory.h" />
+    <ClInclude Include="include\Factory\singleCore.h" />
+    <ClInclude Include="include\Strategy\Strategy.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
